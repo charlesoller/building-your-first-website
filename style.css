@@ -1,0 +1,170 @@
+* {
+    font-family: 'Canela';
+}
+
+body, html{
+    margin:0;
+    padding:0;
+}
+
+a {
+    color: #212121;
+    font-style: normal;
+}
+h1 {
+    font-family: 'Canela';
+    font-weight: bold;
+    font-style: italic;
+    color: #212121;
+}
+
+nav {
+    background-color: #388E3C;
+    display: flex;
+    justify-content: left;
+    height: 40px;
+    position: fixed;
+    top: 0%;
+    width: 110%;
+    margin-bottom: 5%;
+    filter: drop-shadow(0px 5px 4px black);
+    z-index: 10;
+}
+
+figcaption {
+    text-align: center;
+}
+
+legend {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.nav-bar__text {
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+    font-size: 20px;
+}
+
+.nav-bar__text:hover {
+    font-size: 23px;
+    transition-duration: 0.3s;
+}
+
+.header {
+    background-color: #C8E6C9;
+    display: flex;
+    justify-content: center;
+}
+
+#header-image {
+    width: 100%;
+    position: relative;
+    opacity: 60%;
+}
+
+.index__header-text {
+    position: absolute;
+}
+
+.index__head-text-1 {
+    position: absolute;
+    font-size: 150px;
+    left: -300px;
+    top: 50px;
+}
+
+.index__section-head{
+    margin-left: 40px;
+}
+
+.index__section-text{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.index__section-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #388E3C;
+    filter: drop-shadow(0px 5px 4px black);
+    padding: 10px;
+}
+
+.index__section-1:hover {
+    transform: scale(1.01);
+    transition-duration: 0.3s;
+    z-index: 10;
+}
+
+.index__section-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #4CAF50;
+    filter: drop-shadow(0px 5px 4px black);
+}
+
+.index__section-2:hover {
+    transform: scale(1.01);
+    transition-duration: 0.3s;
+    z-index: 10;
+}
+
+.index__section-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #C8E6C9;
+    filter: drop-shadow(0px 5px 4px black);
+}
+
+.index__section-3:hover {
+    transform: scale(1.01);
+    transition-duration: 0.3s;
+    z-index: 10;
+}
+
+.gallery-header {
+    font-size: 100px;
+    text-align: center;
+}
+
+.gallery-content {
+    display: grid;
+    width: 100%;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.gallery-image {
+    width: 100%;
+}
+
+.form-body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: left;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.references-header {
+    font-size: 100px;
+    text-align: center;
+}
+
+.reference-list {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: left;
+    margin-left: 5%;
+}
+
+.reference-item {
+    font-size: 30px;
+    margin: 10px 0px 10px 0px;
+}
